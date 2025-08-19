@@ -1,0 +1,12 @@
+{
+  "app.agreement": "I have read and agreed to Stride's Terms of Service and Privacy Notice",
+  "app.email": "your@email.com",
+  "app.email.address": "Email address",
+  "app.login": "Already have an account? Log in",
+  "app.offers": "I don’t wish to receive exclusive offers, promotions, reminders and more relating to Nekocafé.",
+  "app.password": "Password",
+  "app.pwcharacters": "Your chosen password must contain at least 8 characters",
+  "app.signup": "Sign Up",
+  "app.username": "Username",
+  "app.test": "test2"
+}
