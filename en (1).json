@@ -8,5 +8,6 @@
   "app.pwcharacters": "Your chosen password must contain at least 8 characters",
   "app.signup": "Sign Up",
   "app.username": "Username",
-  "app.test": "test2"
+  "app.test": "test2",
+  "app.test3": "test3"	
 }
