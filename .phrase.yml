@@ -1,6 +1,6 @@
 phrase:
   #project_id: f775bdd3a65aa5ab48d9fb09a21f7635
-  project_id: 7007dc78-1623-4cc9-b2be-8de3815b84ad
+  project_id: 6b03427ed28ab969c1f9f67f7a85b7ed
   push:
     sources:
       - file: ./locales/<locale_code>.json
