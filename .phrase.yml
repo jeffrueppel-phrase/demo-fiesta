@@ -1,15 +1,17 @@
 phrase:
   project_id: 6b03427ed28ab969c1f9f67f7a85b7ed
+
   push:
     sources:
-     - file: ./locales/<locale_code>/*.md
-      params:
-        locale_code: en-US
-        file_format: markdown
-        update_translations: true
+      - file: ./locales/<locale_code>/*.md
+        params:
+          locale_code: en-US
+          file_format: markdown
+          update_translations: true
+
   pull:
     targets:
-    - file: ./locales/<locale>/*.md
-      params:
-        file_format: markdown
-        include_untranslated_keys: true
+      - file: ./locales/<locale_code>/*.md
+        params:
+          file_format: markdown
+          include_untranslated_keys: true
