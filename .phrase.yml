@@ -2,13 +2,13 @@ phrase:
   project_id: 6b03427ed28ab969c1f9f67f7a85b7ed
   push:
     sources:
-      - file: ./locales/<locale_code>.json
-        params:
-          file_format: simple_json
-          locale_code: en
-          autotranslate: true
+     - file: ./docs/en/*.md
+      params:
+        file_format: markdown
+        update_translations: true
   pull:
     targets:
-      - file: ./locales/<locale_code>.json
-        params:
-          file_format: simple_json
+    - file: ./docs/<locale>/*.md
+      params:
+        file_format: markdown
+        include_untranslated_keys: true
